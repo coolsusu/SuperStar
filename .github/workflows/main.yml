@@ -26,7 +26,7 @@ jobs:
       
       - name: Run main.py
         env:
-          CHAOXING_USERNAME: ${{ secrets.CHAOXING_USERNAME }}
-          CHAOXING_PASSWORD: ${{ secrets.CHAOXING_PASSWORD }}
-          CHAOXING_COURSE_LIST: ${{ secrets.CHAOXING_COURSE_LIST }}
+          CHAOXING_USERNAME: ${{ secrets.18150876129 }}
+          CHAOXING_PASSWORD: ${{ secrets.Zjy12113 }}
+          CHAOXING_COURSE_LIST: ${{ secrets.265650629 }}
         run: python main.py -u "$CHAOXING_USERNAME" -p "$CHAOXING_PASSWORD" -l "$CHAOXING_COURSE_LIST"
